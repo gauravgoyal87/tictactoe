@@ -1,0 +1,19 @@
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /* background-color: #2196F3; */
+    padding: 1px;
+    justify-content: center;
+}
+.block{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: green;
+    background: white;
+}
