@@ -1,8 +1,7 @@
 
 .board {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    /* background-color: #2196F3; */
+    grid-template-columns: auto auto   auto;
     padding: 1px;
     justify-content: center;
 }
@@ -16,4 +15,13 @@
     text-align: center;
     color: green;
     background: white;
+}
+header{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 900;
+}
+.body{
+    background-color: plum;
+    
 }
